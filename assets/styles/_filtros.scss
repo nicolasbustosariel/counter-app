@@ -1,0 +1,38 @@
+.filtros,
+.card {
+
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+  background: rgba(90,105,190,0.08);
+  border-radius: $radius;
+  padding: $spacing-sm $spacing-md;
+
+  box-sizing: border-box;
+}
+
+.filtros label,
+.card label {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  margin-bottom: 0;
+}
+
+.filtros select,
+.filtros input,
+.card select {
+  background: $color-selector;
+  color: $color-white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  outline: none;
+  margin-left: $spacing-sm;
+  min-width: 90px;
+}
+
+.filtros button {
+  margin-left: auto;
+}
